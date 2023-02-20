@@ -1,0 +1,102 @@
+2022-11-21 01:58:52,231 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] Initially the sum value is : 0.0
+2022-11-21 01:58:52,260 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] Addition input1 : 7.8
+2022-11-21 01:58:52,263 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] Addition input2 : 2.1
+2022-11-21 01:58:52,263 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] Addition sum result : 9.9
+2022-11-21 02:09:25,970 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-7] Initially the sum value is : 0.0
+2022-11-21 02:09:25,986 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-7] Addition input1 : 4.0
+2022-11-21 02:09:25,986 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-7] Addition input2 : 3.0
+2022-11-21 02:09:25,986 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-7] Addition sum result : 7.0
+2022-11-21 02:12:17,694 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-8] Initially the diff value is : 0.0
+2022-11-21 02:12:17,694 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-8] Multiplication input1 : 7.0
+2022-11-21 02:12:17,694 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-8] Multiplication input2 : 8.0
+2022-11-21 02:12:17,694 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-8] Multiplication product result : 56.0
+2022-11-21 02:12:58,959 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-9] Initially the division value is : 0.0
+2022-11-21 02:12:58,961 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-9] Division input1 : 36.0
+2022-11-21 02:12:58,961 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-9] Division input2 : 3.0
+2022-11-21 02:12:58,961 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-9] Division result : 12.0
+2022-11-21 02:13:48,682 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-10] Initially the diff value is : 0.0
+2022-11-21 02:13:48,682 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-10] Subtraction input1 : 67.0
+2022-11-21 02:13:48,682 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-10] Subtraction input2 : 812.0
+2022-11-21 02:13:48,682 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-10] Subtraction difference result : -745.0
+2022-11-21 02:17:00,603 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-1] Initially the sum value is : 0.0
+2022-11-21 02:17:00,603 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-1] Addition input1 : 13.0
+2022-11-21 02:17:00,604 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-1] Addition input2 : 8.0
+2022-11-21 02:17:00,605 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-1] Addition sum result : 21.0
+2022-11-21 02:17:43,731 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-2] Initially the sum value is : 0.0
+2022-11-21 02:17:43,732 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-2] Addition input1 : 13.0
+2022-11-21 02:17:43,733 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-2] Addition input2 : 6.0
+2022-11-21 02:17:43,734 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-2] Addition sum result : 19.0
+2022-11-21 02:18:05,633 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Initially the diff value is : 0.0
+2022-11-21 02:18:05,634 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Multiplication input1 : 7.0
+2022-11-21 02:18:05,635 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Multiplication input2 : 8.0
+2022-11-21 02:18:05,636 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Multiplication product result : 56.0
+2022-11-21 02:18:26,725 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Initially the division value is : 0.0
+2022-11-21 02:18:26,725 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Division input1 : 42.0
+2022-11-21 02:18:26,725 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Division input2 : 6.0
+2022-11-21 02:18:26,725 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Division result : 7.0
+2022-11-21 02:18:44,736 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Initially the diff value is : 0.0
+2022-11-21 02:18:44,737 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Subtraction input1 : 56.0
+2022-11-21 02:18:44,738 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Subtraction input2 : 9.0
+2022-11-21 02:18:44,739 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Subtraction difference result : 47.0
+2022-11-21 02:19:27,779 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] Initially the diff value is : 0.0
+2022-11-21 02:19:27,779 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] Subtraction input1 : 7.9
+2022-11-21 02:19:27,795 ERROR com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-6] An exception occurred! Please provide valid input {}
+java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at com.rest.api.calculator.service.RestCalculatorController.sub(RestCalculatorController.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)

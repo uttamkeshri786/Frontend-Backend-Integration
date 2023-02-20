@@ -1,0 +1,12 @@
+2022-11-20 10:03:47,195 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Initially the sum value is : 0.0
+2022-11-20 10:03:47,227 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Addition input1 : 4.0
+2022-11-20 10:03:47,228 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Addition input2 : 8.0
+2022-11-20 10:03:47,229 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-3] Addition sum result : 12.0
+2022-11-20 10:04:05,811 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Initially the sum value is : 0.0
+2022-11-20 10:04:05,827 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Addition input1 : 8.0
+2022-11-20 10:04:05,827 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Addition input2 : 7.0
+2022-11-20 10:04:05,827 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-4] Addition sum result : 15.0
+2022-11-20 10:05:40,233 INFO com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Initially the sum value is : 0.0
+2022-11-20 10:05:40,233 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Addition input1 : 1.0
+2022-11-20 10:05:40,249 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Addition input2 : 8.0
+2022-11-20 10:05:40,249 DEBUG com.rest.api.calculator.service.RestCalculatorController [http-nio-8087-exec-5] Addition sum result : 9.0

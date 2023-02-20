@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="748eddeb-d2c9-4bf1-a641-c355ae61a668" activeEnvironment="Default" name="REST Calculator Project" resourceRoot="" soapui-version="5.7.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:interface xsi:type="con:RestService" id="7516cd8f-a265-4731-bc4f-a0eadec9c6fd" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8087/calculator" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:settings/>
+    <con:definitionCache type="TEXT" rootPart=""/>
+    <con:endpoints>
+      <con:endpoint>http://localhost:8080</con:endpoint>
+    </con:endpoints>
+    <con:resource name="Add" path="/add" id="1b97aa1c-742b-41ff-8bc1-d96fc3f5fb70">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>a</con:name>
+          <con:value>10</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>10</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+        <con:parameter>
+          <con:name>b</con:name>
+          <con:value>5</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>5</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="Add" id="e5147543-d8aa-400b-9f7d-f4673a38bd1a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+          <con:status>404</con:status>
+          <con:params/>
+          <con:element xmlns:add="http://localhost/standard/add">add:Fault</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType xsi:nil="true"/>
+          <con:status>0</con:status>
+          <con:params/>
+          <con:element>data</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="6446f837-1865-4361-a3f2-e07c16f21493" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://localhost:8087/calculator</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://localhost/standard/add</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters>
+            <con:entry key="a" value="10"/>
+            <con:entry key="b" value="5"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>a</con:entry>
+            <con:entry>b</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="Sub" path="/sub" id="1b97aa1c-742b-41ff-8bc1-d96fc3f5fb70">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>a</con:name>
+          <con:value>9</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>9</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+        <con:parameter>
+          <con:name>b</con:name>
+          <con:value>5</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>5</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="Subtract" id="e5147543-d8aa-400b-9f7d-f4673a38bd1a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+        </con:representation>
+        <con:request name="Request 1" id="6446f837-1865-4361-a3f2-e07c16f21493" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://localhost:8087/calculator</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://localhost/standard/add</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters>
+            <con:entry key="a" value="10"/>
+            <con:entry key="b" value="8"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>a</con:entry>
+            <con:entry>b</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="Mul" path="/mul" id="1b97aa1c-742b-41ff-8bc1-d96fc3f5fb70">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>a</con:name>
+          <con:value>4</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>4</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+        <con:parameter>
+          <con:name>b</con:name>
+          <con:value>2</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>2</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="Multiply" id="e5147543-d8aa-400b-9f7d-f4673a38bd1a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+        </con:representation>
+        <con:request name="Request 1" id="6446f837-1865-4361-a3f2-e07c16f21493" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:encoding/>
+          <con:endpoint>http://localhost:8087/calculator</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://localhost/standard/add</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters>
+            <con:entry key="a" value="4"/>
+            <con:entry key="b" value="2"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>a</con:entry>
+            <con:entry>b</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="Div" path="/div" id="1b97aa1c-742b-41ff-8bc1-d96fc3f5fb70">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>a</con:name>
+          <con:value>36</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>36</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+        <con:parameter>
+          <con:name>b</con:name>
+          <con:value>9</con:value>
+          <con:style>QUERY</con:style>
+          <con:default>9</con:default>
+          <con:path xsi:nil="true"/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="Divide" id="e5147543-d8aa-400b-9f7d-f4673a38bd1a" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json;charset=UTF-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+        </con:representation>
+        <con:request name="Request 1" id="6446f837-1865-4361-a3f2-e07c16f21493" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://localhost:8087/calculator</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://localhost/standard/add</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters>
+            <con:entry key="a" value="36"/>
+            <con:entry key="b" value="9"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>a</con:entry>
+            <con:entry>b</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+  </con:interface>
+  <con:properties/>
+  <con:wssContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+  <con:sensitiveInformation/>
+</con:soapui-project>
